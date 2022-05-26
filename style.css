@@ -5,7 +5,7 @@
 }
 
 .page {
-  width: 100vw;
+  width: 100%;
   animation: theme 21s linear infinite;
 }
 
@@ -37,24 +37,16 @@
     background: #c3dcfa;
   }
 
-  16% {
+  25% {
     background: #a9faa3;
-  }
-
-  33% {
-    background: #fbdba4;
   }
 
   50% {
     background: #f4f798;
   }
 
-  66% {
+  75% {
     background: #fac5d0;
-  }
-
-  83% {
-    background: #d0adf6;
   }
 
   100% {
@@ -84,28 +76,12 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   padding-bottom: 0.2em;
-  border-right: 0.1em solid black;
-  width: 21ch;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 2s steps(21, end), blink-caret 0.5s step-end infinite alternate;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 26px;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@keyframes blink-caret {
-  50% {
-    border-color: transparent;
-  }
 }
 
 .border-bottom {
@@ -154,10 +130,7 @@ a {
   color: #3b373b;
 }
 
-.person_container,
-.education_container,
-.experience_container,
-.skills_container {
+.info_container {
   padding-bottom: 3em;
   border-left: 3px solid black;
   position: relative;
@@ -178,7 +151,7 @@ a {
   width: 6em;
 }
 
-.info_container {
+.info_item {
   padding-top: 0.5em;
 }
 
