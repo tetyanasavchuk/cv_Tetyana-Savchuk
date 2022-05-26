@@ -18,7 +18,7 @@
         <div class="img_container">
           <img
             class="img_logo left"
-            data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat"
+            data-anijs="if: onRunFinished, on: $AniJSNotifier, do: swing animated;if: mouseover, do: swing animated"
             src="./images/person_logo.png"
             alt=""
           />
@@ -49,7 +49,7 @@
         <div class="img_container">
           <img
             class="img_logo"
-            data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat"
+            data-anijs="if: onRunFinished, on: $AniJSNotifier, do: swing animated;if: mouseover, do: swing animated"
             src="./images/education_logo.png"
             alt=""
           />
@@ -83,7 +83,7 @@
         <div class="img_container">
           <img
             class="img_logo"
-            data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat"
+            data-anijs="if: onRunFinished, on: $AniJSNotifier, do: swing animated;if: mouseover, do: swing animated"
             src="./images/experience_logo.png"
             alt=""
           />
@@ -108,7 +108,7 @@
         <div class="img_container">
           <img
             class="img_logo"
-            data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal repeat"
+            data-anijs="if: onRunFinished, on: $AniJSNotifier, do: swing animated;if: mouseover, do: swing animated"
             src="./images/skills_logo.png"
             alt=""
           />
@@ -116,11 +116,11 @@
         <div class="container">
           <h2 class="border-bottom">My skills</h2>
           <ul class="skills_list">
-            <li><img class="skills_img" src="./images/figma.png" alt="" /></li>
-            <li><img class="skills_img" src="./images/photoshop.png" alt="" /></li>
-            <li><img class="skills_img" src="./images/html.png" alt="" /></li>
-            <li><img class="skills_img" src="./images/css.png" alt="" /></li>
-            <li><img class="skills_img" src="./images/js.png" alt="" /></li>
+            <li><img class="skills_img" data-anijs="if: mouseover, do: bounce animated" src="./images/figma.png" alt="" /></li>
+            <li><img class="skills_img" data-anijs="if: mouseover, do: bounce animated" src="./images/photoshop.png" alt="" /></li>
+            <li><img class="skills_img" data-anijs="if: mouseover, do: bounce animated" src="./images/html.png" alt="" /></li>
+            <li><img class="skills_img" data-anijs="if: mouseover, do: bounce animated" src="./images/css.png" alt="" /></li>
+            <li><img class="skills_img" data-anijs="if: mouseover, do: bounce animated" src="./images/js.png" alt="" /></li>
           </ul>
         </div>
       </div>
